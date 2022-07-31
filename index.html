@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <div id="header">
+        <!-- <img src="/assets/me-bg.png" alt=""> -->
+        <div class="container">
+            <nav>
+                <p>Ananda.</p>
+
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <h2>Hi, I'm <span>Ananda</span></h2>
+                <br>
+                <p>Junior M.L. Engineer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <div class="about-me-img">
+                        <img src="me-about.JPG" alt="ME">
+                    </div>
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hi, 
+                        I'm a Junior Machine Learning Engineer. 
+                        Since, I knew there is ML and AI related fields. I switched from my Web Developing Journey. And Now, I love what I'm doing.  <br />
+                        I'm interested in Python, Machine learning, Artificial Intelligence, Deep Learning, ML Algorithms and Data Science.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p> -->
+                            <!-- <p class="tab-links" onclick="opentab('education')">Education</p> -->
+
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>- Web Development</span> - Basics</li>
+                                <li><span>- Python</span></li>
+                                <li><span>- Keras & Tensorflow</span></li>
+                                <li><span>- Python Frameworks & Libraries</span></li>
+                                <li><span>- Feature Engineering & ML Algorithms</span></li>
+                                <li><span>- EDA & Model Deployment</span></li>
+                                <li><span>- Problem Solving & Communication Skills</span></li>
+                                <!-- <i class="fa-solid fa-octagon-xmark"></i> -->
+
+                            </ul>
+                            <!-- <i class="fa-solid fa-bars"></i> -->
+
+                            <ul>
+                                <!-- <h3>Education</h3>
+                                <li><span>2022</span> AI With Python at Broadway Infosys</li>
+                                    <li><span>2019 - 2022</span> D. in Computer Engineering</li> -->
+
+                            </ul>
+
+                            <div class="tab-contents" id="experience">
+                                <!-- <ul>
+                                    <li><span>2022</span> Internship at MPerspect</li>
+                                    <li><span>2021</span> Internship at DeerWalk</li>
+                                </ul> -->
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <!-- <li><span>2022</span> AI With Python at Broadway Infosys</li>
+                                    <li><span>2019 - 2022</span> D. in Computer Engineering</li> -->
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ********* PORTFOLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Recent Works</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="movie-recommendation-system.jpg" alt="">
+                    <div class="layer">
+                        <p>This is a Movies-Recommendation-System</p>
+                        <a href="https://github.com/anandacdr/movies-recommendation-system" target="_blank"><button><i class="fa-brands fa-square-github"></i>
+
+                            GitHub</button></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="car-pred.jpg" alt="">
+                    <div class="layer">
+                        <p>This is a Car Price Prediction system</p>
+                        <a href="https://github.com/anandacdr/carPricePrediction" target="_blank"><button><i class="fa-brands fa-square-github"></i>
+
+                            GitHub</button></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="cat-dog-predict.png" alt="">
+                    <div class="layer">
+                        <p>This is a Cat Vs Dog Classification</p>
+                        <a href="https://github.com/anandacdr/catVsDogClassification" target="_blank"><button><i class="fa-brands fa-square-github"></i>
+
+                            GitHub</button></a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="https://github.com/anandacdr" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- ************ CONTACT ************* -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                div class="contact-left">
+                <div class="contact__options">
+                    <article class="contact__option">
+                        <MdOutlineEmail class="contact__option-icon"/>
+                        <h4>Email</h4>
+                        <h5>mailwithananda@gmail.com</h5>
+                        <a href="mailto:mailwithananda@gmail.com" target="_blank">Send a Message</a>
+                    </article>
+
+                    
+                    <article class="contact__option">
+                        <BsMessenger class="contact__option-icon"/>
+                        <h4>Messenger</h4>
+                        <h5>Ananda Chaudhary</h5>
+                        <a href="https://m.me/anandachaudharii" target="_blank">Send a Message</a>
+                    </article>
+                    <!-- <h2 class="sub-title">Contact Me</h2> -->
+                    <!-- <p><i class="fa-solid fa-circle-envelope"></i>mailwithananda@gmail.com</p> -->
+                    <!-- <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div> -->
+
+                    <a href="cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <!-- <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" id="" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div> -->
+                <div class="form">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Full Name" required />
+                        <input type="email" name="Email" placeholder="Your Email" required />
+                        <textarea name="Message" id="" rows="7" placeholder="Send Message" required></textarea>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Developed By Ananda Chaudhary | &copy; 2022 All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxKDf2WCYpyBFsm1M6vfkXwRur8wEV3GLS8xmQHMpkLzjFsdHiaiVBCrHyB3hmiRJ3wuA/exec'
+
+        const form = document.forms['submit-to-google-sheet']
+
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset
+                ()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+<script src="js/script.js"></script>
+</html>
+
+
+
